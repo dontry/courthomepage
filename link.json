@@ -1,0 +1,608 @@
+http://192.168.2.142:9080/json/live.html
+{
+    "data": [
+        {
+            "caseInfoId": 2,
+            "caseInfoName": "测试案号1122",
+            "courtBeginTime": {
+                "date": 11,
+                "day": 3,
+                "hours": 17,
+                "minutes": 33,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 46,
+                "time": 1462959226000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "courtEndTime": {
+                "date": 12,
+                "day": 4,
+                "hours": 15,
+                "minutes": 52,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 48,
+                "time": 1463039568000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "cover": "",
+            "id": 9,
+            "liveCount": 332,
+            "remark": "333",
+            "status": 1
+        }
+    ],
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "message": "",
+    "success": true,
+    "uri": ""
+}
+http://192.168.2.142:9080/json/liveId.html?id=9
+{
+    "data": {
+        "caseInfoId": 2,
+        "caseInfoName": "测试案号1122",
+        "courtBeginTime": {
+            "date": 11,
+            "day": 3,
+            "hours": 17,
+            "minutes": 33,
+            "month": 4,
+            "nanos": 0,
+            "seconds": 46,
+            "time": 1462959226000,
+            "timezoneOffset": -480,
+            "year": 116
+        },
+        "courtEndTime": {
+            "date": 12,
+            "day": 4,
+            "hours": 15,
+            "minutes": 52,
+            "month": 4,
+            "nanos": 0,
+            "seconds": 48,
+            "time": 1463039568000,
+            "timezoneOffset": -480,
+            "year": 116
+        },
+        "cover": "",
+        "id": 9,
+        "liveCount": 332,
+        "remark": "333",
+        "status": 1
+    },
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "message": "",
+    "success": true,
+    "uri": ""
+}
+
+
+http://192.168.2.142:9080/json/live.html?PageIndex=1&PageSize=9
+{
+    "data": null,
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "list": [
+        {
+            "caseInfoId": 2,
+            "caseInfoName": "测试案号1122",
+            "courtBeginTime": {
+                "date": 12,
+                "day": 4,
+                "hours": 0,
+                "minutes": 0,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 0,
+                "time": 1462982400000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "courtEndTime": {
+                "date": 7,
+                "day": 6,
+                "hours": 0,
+                "minutes": 0,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 0,
+                "time": 1462550400000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "cover": "min-iconfont-rocket-active.png",
+            "id": 11,
+            "liveCount": 1,
+            "liveStatus": 0,
+            "remark": "123",
+            "status": 1
+        },
+        {
+            "caseInfoId": 2,
+            "caseInfoName": "测试案号1122",
+            "courtBeginTime": {
+                "date": 12,
+                "day": 4,
+                "hours": 0,
+                "minutes": 0,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 0,
+                "time": 1462982400000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "courtEndTime": {
+                "date": 26,
+                "day": 4,
+                "hours": 0,
+                "minutes": 0,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 0,
+                "time": 1464192000000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "cover": "min-iconfont-rocket.png",
+            "id": 12,
+            "liveCount": 123,
+            "liveStatus": 0,
+            "remark": "",
+            "status": 1
+        },
+        {
+            "caseInfoId": 1,
+            "caseInfoName": "12311",
+            "courtBeginTime": {
+                "date": 12,
+                "day": 4,
+                "hours": 0,
+                "minutes": 0,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 0,
+                "time": 1462982400000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "courtEndTime": {
+                "date": 21,
+                "day": 6,
+                "hours": 0,
+                "minutes": 0,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 0,
+                "time": 1463760000000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "cover": "min-iconfont-rocket-active.png",
+            "id": 13,
+            "liveCount": 2,
+            "liveStatus": 0,
+            "remark": "",
+            "status": 1
+        }
+    ],
+    "message": "",
+    "query": {
+        "fields": [],
+        "orders": [
+            {
+                "asc": true,
+                "property": "courtBeginTime"
+            }
+        ],
+        "pageCount": 1,
+        "pageIndex": 1,
+        "pageSize": 9,
+        "recordCount": 3,
+        "recordEnd": 3,
+        "recordStart": 1
+    },
+    "success": true,
+    "uri": ""
+}
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+http://192.168.2.142:9080/json/videoId.html?id=9
+{
+    "data": {
+        "caseInfoId": 1,
+        "caseInfoName": "12311",
+        "caseTitle": "testadd",
+        "courtTime": {
+            "date": 2,
+            "day": 6,
+            "hours": 0,
+            "minutes": 0,
+            "month": 0,
+            "nanos": 0,
+            "seconds": 0,
+            "time": 1451664000000,
+            "timezoneOffset": -480,
+            "year": 116
+        },
+        "cover": "2.jpg",
+        "fileName": "a.mp4",
+        "fileSize": 12312,
+        "id": 9,
+        "remark": "test",
+        "status": 1,
+        "videoConvertStatus": 0,
+        "vodCount": 0
+    },
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "message": "",
+    "success": true,
+    "uri": ""
+}
+
+http://192.168.2.142:9080/json/videoId.html?Id=7
+{
+    "data": {
+        "caseInfoId": 1,
+        "caseInfoName": "12311",
+        "caseTitle": "testadd",
+        "courtTime": {
+            "date": 2,
+            "day": 6,
+            "hours": 0,
+            "minutes": 0,
+            "month": 0,
+            "nanos": 0,
+            "seconds": 0,
+            "time": 1451664000000,
+            "timezoneOffset": -480,
+            "year": 116
+        },
+        "cover": "2.jpg",
+        "fileName": "a.mp4",
+        "fileSize": 0,
+        "id": 7,
+        "remark": "test",
+        "status": 1,
+        "videoConvertStatus": 0,
+        "vodCount": 0
+    },
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "message": "",
+    "success": true,
+    "uri": ""
+}
+http://192.168.2.142:9080/json/video.html?PageIndex=2&PageSize=2
+{
+    "data": null,
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "list": [
+        {
+            "caseInfoId": 1,
+            "caseInfoName": "12311",
+            "caseTitle": "",
+            "courtTime": null,
+            "cover": "2.jpg",
+            "fileName": "a.mp4",
+            "fileSize": 0,
+            "id": 4,
+            "remark": "test",
+            "status": 1,
+            "videoConvertStatus": 1,
+            "vodCount": 0
+        },
+        {
+            "caseInfoId": 1,
+            "caseInfoName": "12311",
+            "caseTitle": "testadd",
+            "courtTime": {
+                "date": 11,
+                "day": 3,
+                "hours": 13,
+                "minutes": 6,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 59,
+                "time": 1462943219000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "cover": "2.jpg",
+            "fileName": "a.mp4",
+            "fileSize": 0,
+            "id": 5,
+            "remark": "test",
+            "status": 1,
+            "videoConvertStatus": 1,
+            "vodCount": 0
+        }
+    ],
+    "message": "",
+    "query": {
+        "fields": [],
+        "orders": [],
+        "pageCount": 32,
+        "pageIndex": 2,
+        "pageSize": 2,
+        "recordCount": 64,
+        "recordEnd": 4,
+        "recordStart": 3
+    },
+    "success": true,
+    "uri": ""
+}
+
+
+------------------------------album-------------------------------------------------------------------------------------
+http://192.168.2.142:9080/json/album.html
+{
+    "data": [
+        {
+            "cover": "2",
+            "id": 10,
+            "name": "1",
+            "remark": "3",
+            "status": 1
+        },
+        {
+            "cover": "5",
+            "id": 11,
+            "name": "4",
+            "remark": "6",
+            "status": 1
+        }
+    ],
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "message": "",
+    "success": true,
+    "uri": ""
+}
+
+
+http://192.168.2.142:9080/json/albumId.html?Id=10
+{
+    "data": {
+        "cover": "2",
+        "id": 10,
+        "name": "1",
+        "remark": "3",
+        "status": 1
+    },
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "message": "",
+    "success": true,
+    "uri": ""
+}
+http://192.168.2.142:9080/json/album.html?PageIndex=2&PageSize=2
+{
+    "data": null,
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "list": [
+        {
+            "cover": "2",
+            "id": 10,
+            "name": "1",
+            "remark": "3",
+            "status": 1
+        },
+        {
+            "cover": "5",
+            "id": 11,
+            "name": "4",
+            "remark": "6",
+            "status": 1
+        }
+    ],
+    "message": "",
+    "query": {
+        "fields": [],
+        "orders": [],
+        "pageCount": 1,
+        "pageIndex": 1,
+        "pageSize": 2,
+        "recordCount": 2,
+        "recordEnd": 2,
+        "recordStart": 1
+    },
+    "success": true,
+    "uri": ""
+}
+
+
+-----------------------------------------------------------------------------------------------------------------------
+http://192.168.2.142:9080/json/noticeId.html?Id=2
+{
+    "data": {
+        "beginDate": {
+            "date": 9,
+            "day": 1,
+            "hours": 0,
+            "minutes": 0,
+            "month": 4,
+            "nanos": 0,
+            "seconds": 0,
+            "time": 1462723200000,
+            "timezoneOffset": -480,
+            "year": 116
+        },
+        "caseInfoId": 2,
+        "caseInfoName": "测试案号1122",
+        "content": "1",
+        "endDate": {
+            "date": 27,
+            "day": 5,
+            "hours": 0,
+            "minutes": 0,
+            "month": 4,
+            "nanos": 0,
+            "seconds": 0,
+            "time": 1464278400000,
+            "timezoneOffset": -480,
+            "year": 116
+        },
+        "id": 2,
+        "noticeTypeId": 1,
+        "noticeTypeName": "开庭公告",
+        "status": 1,
+        "title": "123"
+    },
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "message": "",
+    "success": true,
+    "uri": ""
+}
+
+http://192.168.2.142:9080/json/notice.html?PageIndex=1&PageSize=2
+{
+    "data": null,
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "list": [
+        {
+            "beginDate": {
+                "date": 9,
+                "day": 1,
+                "hours": 0,
+                "minutes": 0,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 0,
+                "time": 1462723200000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "caseInfoId": 13,
+            "caseInfoName": "2",
+            "content": "sdfsd",
+            "endDate": {
+                "date": 19,
+                "day": 4,
+                "hours": 0,
+                "minutes": 0,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 0,
+                "time": 1463587200000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "id": 1,
+            "noticeTypeId": 1,
+            "noticeTypeName": "开庭公告",
+            "status": 1,
+            "title": "222222222"
+        },
+        {
+            "beginDate": {
+                "date": 9,
+                "day": 1,
+                "hours": 0,
+                "minutes": 0,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 0,
+                "time": 1462723200000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "caseInfoId": 2,
+            "caseInfoName": "测试案号1122",
+            "content": "1",
+            "endDate": {
+                "date": 27,
+                "day": 5,
+                "hours": 0,
+                "minutes": 0,
+                "month": 4,
+                "nanos": 0,
+                "seconds": 0,
+                "time": 1464278400000,
+                "timezoneOffset": -480,
+                "year": 116
+            },
+            "id": 2,
+            "noticeTypeId": 1,
+            "noticeTypeName": "开庭公告",
+            "status": 1,
+            "title": "123"
+        }
+    ],
+    "message": "",
+    "query": {
+        "fields": [],
+        "orders": [
+            {
+                "asc": false,
+                "property": "beginDate"
+            }
+        ],
+        "pageCount": 1,
+        "pageIndex": 1,
+        "pageSize": 2,
+        "recordCount": 2,
+        "recordEnd": 2,
+        "recordStart": 1
+    },
+    "success": true,
+    "uri": ""
+}
+
+---------------------------------------
+http://192.168.2.142:9080/json/liveplay.html?id=9
+{
+    "data": {
+        "HLS": "http://http://192.168.2.28:6060:6080/hls/058616FCAC0740088F4DA9055D3EB526.m3u8",
+        "RTMP": "rtmp://192.168.2.28:1935/hls/058616FCAC0740088F4DA9055D3EB526",
+        "RTSP": "rtsp://192.168.2.28:5556/dispatch/0?model=rtsp-tcp&config.client_type=web"
+    },
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "message": "",
+    "success": true,
+    "uri": ""
+}
+
+--------------------------------
+http://192.168.2.142:9080/json/videoplay.html?id=1
+{
+    "data": {
+        "HLS": "http://192.168.2.142:6080/upload/video/1/1.mp4",
+        "RTMP": "rtmp://192.168.2.142:1935/upload/video/1/1.mp4"
+    },
+    "errorCode": "",
+    "html": "",
+    "key": "",
+    "message": "",
+    "success": true,
+    "uri": ""
+}

@@ -1,0 +1,13 @@
+{ 
+    "data": { 
+        "HLS": null, 
+        "RTMP": null, 
+        "RTSP": "rtsp://192.168.2.28:5557/dispatch/0?model=rtsp-tcp&config.client_type=web" 
+        }, 
+    "errorCode": "", 
+    "html": "", 
+    "key": "", 
+    "message": "", 
+    "success": true, 
+    "uri": "" 
+}

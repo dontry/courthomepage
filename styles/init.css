@@ -1,0 +1,99 @@
+.f-pr {
+    position: relative;
+}
+
+.f-pa {
+    position: absolute;
+}
+
+.f-pf {
+    position: fixed;
+}
+
+.f-fl {
+    float: left;
+}
+
+.f-fr {
+    float: right;
+}
+
+.f-clearfix {
+    zoom: 1;
+}
+
+.f-clearfix:after {
+    content: ".";
+    clear: both;
+    visibility: hidden;
+    display: block;
+    overflow: hidden;
+    height: 0;
+    font-size: 0;
+}
+
+.f-ib {
+    display: inline-block;
+}
+
+.f-dn {
+    display: none;
+}
+
+.f-db {
+    display: block;
+}
+
+.f-tac {
+    text-align: center;
+}
+
+.f-tar {
+    text-align: right;
+}
+
+.f-tal {
+    text-align: left;
+}
+
+.f-vam {
+    vertical-align: middle;
+}
+
+.f-oh {
+    overflow: hidden;
+}
+
+.f-pt {
+    cursor: pointer !important;
+}
+
+.f-na {
+    cursor: not-allowed !important;
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('../assets/fonts/iconfont.eot?t=1461304570');
+    src: url('../assets/fonts/iconfont.eot?t=1461304570#iefix') format('embedded-opentype'),
+    url('../assets/fonts/iconfont.woff?t=1461304570') format('woff'),
+    url('../assets/fonts/iconfont.ttf?t=1461304570') format('truetype'),
+    url('../assets/fonts/iconfont.svg?t=1461304570#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-clock:before {
+    content: "\e600";
+}
+
+.icon-play:before {
+    content: "\e602";
+}
